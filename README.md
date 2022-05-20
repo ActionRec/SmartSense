@@ -6,7 +6,7 @@ Our datasets consist of log datasets, routine datasets, and dictionaries.
 The log datasets are collected for a month from 4 different countries: Korea, USA, Spain, and France, respectively.
 The routine datasets are collected from 3 different regions: Asia-Pacific, North America, and Europe, respectively.
 The dictionaries provide mappings between names and ids, for day of weeks, hours, devices, and device controls.
-We provide data separately by countries in repositories `kr`, `us`, `sp`, and `fr`, each of which corresponds to Korea, USA, Spain, and France, respectively as a zip file.
+We provide data separately by countries in repositories `kr`, `us`, `sp`, and `fr`, each of which corresponds to Korea, USA, Spain, and France, respectively.
 ### Log dataset
 Each log dataset is a tensor of size [N x 10 x 4], where N is the number of instances.
 Each instance of the log dataset contains ten consecutive actions performed by a user of Bixby service.
